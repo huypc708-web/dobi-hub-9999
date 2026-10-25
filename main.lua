@@ -9,7 +9,7 @@ task.spawn(function()
                 for _, obj in pairs(container:GetDescendants()) do
                     if obj:IsA("TextLabel") or obj:IsA("TextButton") then
                         if obj.Text and (obj.Text:find("Redz") or obj.Text:find("redz") or obj.Text:find("RDZ")) then
-                            obj.Text = obj.Text:gsub("Redz", "Dobi"):gsub("redz", "dobi"):gsub("RDZ", "DOBI")
+                            obj.Text = obj.Text:gsub("Redz", "Dobi"):gsub("redz", "Dobi"):gsub("RDZ", "Dobi")
                         end
                     end
                 end
